@@ -198,8 +198,81 @@ header {
    align-items: center;
 }
 
+/* fact section */
+.fact {
+    width: 75%;
+    margin: 130px auto;
+}
 
+.fact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
 
+.fact-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.fact-text p {
+    margin-bottom: 20px;
+}
+.fact-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 144, 14, 1);
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+/* sponsor section */
+.sponsor {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.sponsor-container {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.sponsor-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    justify-items: center;
+}
+
+/* footer section */
+footer {
+    width: 75%;
+    max-width: 1440px;
+    margin: 120px auto;
+    text-align: center;
+    padding: 39px;
+    background-color: rgba(255, 144, 14, 0.2);
+}
 /* responsive styling */
 @media screen and (max-width: 576px) {
     html {
